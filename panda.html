@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panda</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 98vh;
+        background-color: #E5E5E5;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <svg width="500" height ="500">
+      <!-- уши -->
+      <g>
+        <g fill ="#4a4a4a">
+          <ellipse rx="56" ry="74"  cx="152" cy="12" transform="rotate(45)"/>
+          <ellipse rx="56" ry="74"  cx="200" cy="365" transform="rotate(-45)"/>
+        </g>
+
+        <g fill ="#000">
+          <ellipse rx="24" ry="30"  cx="152" cy="12" transform="rotate(45)"/>
+          <ellipse rx="24" ry="30"  cx="200" cy="365" transform="rotate(-45)"/>
+        </g>
+
+      </g>
+
+      <!-- голова -->
+      <circle r="200" cx="250" cy="250" fill ="#fff"/>
+      <ellipse rx="29" ry="22"  cx="250" cy="316" fill ="#000"/>
+
+      <!-- глаза -->
+      <g>
+        <g fill ="#4a4a4a">
+          <ellipse rx="45" ry="55"  cx="155" cy="265"/>
+          <ellipse rx="45" ry="55"  cx="345" cy="265"/>
+        </g>
+
+        <g fill ="#000">
+          <circle r="20" cx="155" cy="255"/>
+          <circle r="20" cx="345" cy="255"/>
+        </g>
+
+        <g fill ="#fff">
+          <circle r="10" cx="150" cy="248"/>
+          <circle r="10" cx="340" cy="248"/>
+        </g>
+      </g>
+
+    </svg>
+
+
+
+  </div>
+</body>
+</html>
